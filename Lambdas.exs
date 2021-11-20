@@ -2,6 +2,7 @@ defmodule Lambdas do
   def multiplyByTwo(number) do
     multiplyByTwo = fn x -> x * 2 end
     # lambda.(param)
+    # 4
     result = multiplyByTwo.(number)
     IO.puts("Multiply #{number} by two is equals to #{result}")
   end
